@@ -31,7 +31,7 @@ setuptools.setup(
     url="https://github.com/mobilesec/arcface-tensorflowlite",
     packages=setuptools.find_packages(exclude=["tests.*", "tests"]),
     install_requires=[
-          "tensorflow>=2.3.0",
+          "tensorflow-cpu>=2.3.0",
           "pyyaml>=5.3",
           "opencv-python>=4.4",
           "numpy",
